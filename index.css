@@ -1,0 +1,42 @@
+
+*{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#container2{
+    height: auto;
+    width: 100%;
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    
+}
+.parent{
+    height: auto;
+    width: 200px;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: auto;
+    
+}
+#container2>div>img{
+    margin: auto;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    
+}
+button{
+    height: 30px;
+    border: none;
+    background-color: black;
+    color: white;
+    
+}
